@@ -72,4 +72,12 @@ void Calculator::setSqrt()
 {
 	std::cin >> sqrootInput;
 	std::cout << sqrt(sqrootInput);
+	if(sqrootInput < 0)
+	{
+	   std::cout << "\nYou can't have a square root with negative numbers, that would be and imaginary number!Try again please!\n";
+	} 
+	else if(sqrootInput == 0)
+	{
+	   std::cout << "\nYou can't have a square root from zero!Try again please!";
+	}
 }
