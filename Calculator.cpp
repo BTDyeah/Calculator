@@ -33,9 +33,9 @@ void Calculator::setDiv() //formula firstNum/(number of arrays multiplicated by 
 {
 	int i;
 	double firstNum, secondNum = 1.0;
+	std::cin >> i;
 	double *drag = new double[i];
 	std::cin >> firstNum;
-	std::cin >> i;
 	
 	for(int x=0;x,i;x++)
 	{
