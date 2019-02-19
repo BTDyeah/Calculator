@@ -1,0 +1,65 @@
+#include <iostream>
+
+char board[3][3] {'1','2','3','4','5','6','7','8','9'};
+void table()
+{
+		for(int i=0;i<3;i++)  
+	{ 
+		for(int m=0;m<3;m++) 
+		{
+			
+			std::cout << board[i][m] << " ";
+	
+		}
+			std::cout << std::endl;
+    }
+    
+}
+
+
+
+void X()
+{
+		for(int i=0;i<3;i+=2)  
+	{ 
+		for(int m=0;m<3;m++) 
+		{
+			
+			std::cout << board[i][m] << " ";
+	
+		}
+			std::cout << std::endl;
+    }	
+}
+
+void O()
+{
+		for(int i=0;i<3;i+=2)  
+	{ 
+		for(int m=0;m<3;m++) 
+		{
+			
+			std::cout << board[i][m] << " ";
+	
+		}
+			std::cout << std::endl;
+    }
+}
+int main() 
+{
+	int a;
+	table();
+	std::cout << "Please type in a number to place X or O!\n";
+	std::cin >> a; 
+	if(a<1 || a>9)
+	{
+		std::cout << "Please type in number from 1-9!\n";
+	}
+	else
+	{
+		table();
+		std::cout << "Please type in a number to place X or O!\n";
+	}
+	
+	return 0;
+}
