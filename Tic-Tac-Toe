@@ -1,28 +1,28 @@
 #include <iostream>
+#include <cstdlib>
+char board[3][3] ={'1','2','3','4','5','6','7','8','9'}; //starting board
 
-char board[3][3] {'1','2','3','4','5','6','7','8','9'}; //starting board
-
-char Xboard1[3][3] {'X','2','3','4','5','6','7','8','9'}; //boards with X
-char Xboard2[3][3] {'1','X','3','4','5','6','7','8','9'};
-char Xboard3[3][3] {'1','2','X','4','5','6','7','8','9'};
-char Xboard4[3][3] {'1','2','3','X','5','6','7','8','9'};
-char Xboard5[3][3] {'1','2','3','4','X','6','7','8','9'};
-char Xboard6[3][3] {'1','2','3','4','5','X','7','8','9'};
-char Xboard7[3][3] {'1','2','3','4','5','6','X','8','9'};
-char Xboard8[3][3] {'1','2','3','4','5','6','7','X','9'};
-char Xboard9[3][3] {'1','2','3','4','5','6','7','8','X'}; 
+char Xboard1[3][3] = {'X','2','3','4','5','6','7','8','9'}; //boards with X
+char Xboard2[3][3] ={'1','X','3','4','5','6','7','8','9'};
+char Xboard3[3][3] ={'1','2','X','4','5','6','7','8','9'};
+char Xboard4[3][3] ={'1','2','3','X','5','6','7','8','9'};
+char Xboard5[3][3] ={'1','2','3','4','X','6','7','8','9'};
+char Xboard6[3][3] ={'1','2','3','4','5','X','7','8','9'};
+char Xboard7[3][3] ={'1','2','3','4','5','6','X','8','9'};
+char Xboard8[3][3] ={'1','2','3','4','5','6','7','X','9'};
+char Xboard9[3][3] ={'1','2','3','4','5','6','7','8','X'}; 
 
 
 
-char Oboard1[3][3] {'O','2','3','4','5','6','7','8','9'}; //boards with O
-char Oboard2[3][3] {'1','O','3','4','5','6','7','8','9'};
-char Oboard3[3][3] {'1','2','O','4','5','6','7','8','9'};
-char Oboard4[3][3] {'1','2','3','O','5','6','7','8','9'};
-char Oboard5[3][3] {'1','2','3','4','O','6','7','8','9'};
-char Oboard6[3][3] {'1','2','3','4','5','O','7','8','9'};
-char Oboard7[3][3] {'1','2','3','4','5','6','O','8','9'};
-char Oboard8[3][3] {'1','2','3','4','5','6','7','O','9'};
-char Oboard9[3][3] {'1','2','3','4','5','6','7','8','O'};
+char Oboard1[3][3]= {'O','2','3','4','5','6','7','8','9'}; //boards with O
+char Oboard2[3][3] ={'1','O','3','4','5','6','7','8','9'};
+char Oboard3[3][3] ={'1','2','O','4','5','6','7','8','9'};
+char Oboard4[3][3] ={'1','2','3','O','5','6','7','8','9'};
+char Oboard5[3][3] ={'1','2','3','4','O','6','7','8','9'};
+char Oboard6[3][3] ={'1','2','3','4','5','O','7','8','9'};
+char Oboard7[3][3] ={'1','2','3','4','5','6','O','8','9'};
+char Oboard8[3][3] ={'1','2','3','4','5','6','7','O','9'};
+char Oboard9[3][3] ={'1','2','3','4','5','6','7','8','O'};
 
 
 
@@ -163,6 +163,742 @@ switch(b)
     for(int m=0;m<3;m++) 
     {
       
+      std::cout << Oboard1[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 2:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard2[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 3:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard3[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 4:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard4[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 5:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard5[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 6:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard6[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 7:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard7[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 8:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard8[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 9:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard9[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    }       
+}
+
+  int c;
+  std::cout << "please type in number to replace x or o\n";
+  std::cin >> c;
+  switch(c)
+{
+  case 1:
+    for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard1[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 2:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard2[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 3:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard3[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 4:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard4[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 5:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard5[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 6:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard6[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 7:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard7[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 8:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard8[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 9:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard9[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    }       
+}
+int d;
+std::cout << "please type in number to replace x or o\n";
+std::cin >> d;
+switch(d)
+{
+  case 1:
+    for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard1[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 2:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard2[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 3:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard3[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 4:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard4[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 5:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard5[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 6:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard6[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 7:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard7[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 8:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard8[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 9:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard9[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    }       
+}
+int e;
+std::cout << "please type in number to replace x or o\n";
+std::cin >> e;
+switch(e)
+{
+  case 1:
+    for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard1[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 2:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard2[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 3:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard3[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 4:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard4[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 5:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard5[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 6:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard6[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 7:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard7[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 8:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard8[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 9:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard9[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    }       
+}
+int f;
+std::cout << "please type in number to replace x or o\n";
+std::cin >> f;
+switch(f)
+{
+  case 1:
+    for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard1[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 2:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard2[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 3:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard3[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 4:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard4[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 5:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard5[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 6:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard6[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 7:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard7[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 8:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard8[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 9:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard9[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    }       
+}
+int g;
+std::cout << "please type in number to replace x or o\n";
+std::cin >> g;
+switch(g)
+{
+  case 1:
+    for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard1[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 2:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard2[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 3:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard3[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 4:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard4[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 5:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard5[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 6:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard6[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 7:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard7[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 8:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard8[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 9:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Xboard9[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    }       
+}
+int h;
+std::cout << "please type in number to replace x or o\n";
+std::cin >> h;
+switch(h)
+{
+  case 1:
+    for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard1[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 2:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard2[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 3:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard3[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 4:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard4[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 5:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard5[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 6:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard6[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 7:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard7[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 8:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard8[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    } break;
+  case 9:
+  for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
+      std::cout << Oboard9[i][m] << " ";
+  
+    }
+      std::cout << std::endl;
+    }       
+}
+int j;
+std::cout << "please type in number to replace x or o\n";
+std::cin >> j;
+switch(j)
+{
+  case 1:
+    for(int i=0;i<3;i++)  //board with x first
+    { 
+    for(int m=0;m<3;m++) 
+    {
+      
       std::cout << Xboard1[i][m] << " ";
   
     }
@@ -258,6 +994,10 @@ switch(b)
     }       
 }
 
-	
-	return 0;
+
+ 
+
+  system("pause");
+  return 0;
 }
+
