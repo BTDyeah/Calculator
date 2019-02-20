@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 char board[3][3] ={'1','2','3','4','5','6','7','8','9'}; //starting board
-
+//all switch statements looped for less overall code thx pls
 char Xboard1[3][3] = {'X','2','3','4','5','6','7','8','9'}; //boards with X
 char Xboard2[3][3] ={'1','X','3','4','5','6','7','8','9'};
 char Xboard3[3][3] ={'1','2','X','4','5','6','7','8','9'};
@@ -29,7 +29,7 @@ char Oboard9[3][3] ={'1','2','3','4','5','6','7','8','O'};
 
 int main()
 {
-  int a; // dec;aration of the number that's being swapped with X or O
+  int a; // dec;aration of the number that's being swapped with X or O 
   for(int i=0;i<3;i++)  //board
   { 
     for(int m=0;m<3;m++) 
