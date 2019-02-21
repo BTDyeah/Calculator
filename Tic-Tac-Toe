@@ -26,7 +26,7 @@ char Oboard9[3][3] ={'1','2','3','4','5','6','7','8','O'};
 
 
 
-int main()
+int notMain()
 {
   int a; // dec;aration of the number that's being swapped with X or O 
   for(int i=0;i<3;i++)  //board
