@@ -1,17 +1,17 @@
 std::string get_middle(std::string input) 
 {
-string word[input];
+std::string word[input]; //get the word
 int i;
 
 for(i=0;i<input && i<100;i+=2 && i++)
 {
  if(i+=2)
  {
-   return (input-1)-(input-3);
+   return (input-48)-(input-98+48); //for even
  } else
  if(i++)
  {
-   return (input-3)-(input-4);
+   return (input-49)-(input-99+49); //for odd
  }
 }
   // return the middle character(s)
